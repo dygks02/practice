@@ -149,7 +149,7 @@ void sort_node(Node *head,int count) {
     current = current->next;
     int min;
     Node *node;
-    for(int i = 0;i<count; i++) {//
+    for(int i = 0;i<count; i++) {//bubble sort
         int check = 0;
         min = current->key;
         Node *temp = current->next;
